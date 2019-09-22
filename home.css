@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.headerpart {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./rajaampat.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.textpromo {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 150px;
+    font-size: 20px;
+    color: #fff;
+}
+
+#logo {
+    height: 40px;
+    width: auto;
+    float: left;
+    margin-top: 40px;
+    font-style: italic;
+    color: 	rgb(199, 11, 11);
+    background-color: seashell;
+    text-decoration: none;
+    padding-top: 5px;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px 10px;
+}
+
+.navigation{
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.navigation li a:link,
+.navigation li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 100%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    font-weight: 700;
+}
+
+.navigation li a:hover,
+.navigation li a:active{
+    border-bottom: 2px solid #fff;
+}
+
+/* LINKS */
+a:link,
+a:visited {
+    color: #f39c12;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #f39c12;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #f39c12;
+    border-bottom: 1px solid transparent;
+}
+
+/* ====BUTTONS==== */
+.btn:link,
+.btn:visited{
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #f39c12;
+    display: inline-block;
+    padding: 12px 30px;
+    font-weight: 320;
+    border-radius: 210px;
+    transition: background-color 0.3s, border 0.2s, color 0.2s;
+    background-color: #f39c12;
+}
+
+.main-button:link,
+.main-button:visited{
+    background-color: #f39c12;
+    border: 1px solid #f39c12;
+    color: #fff;
+    margin-right: 15px;
+}
+
+/* FEATURES */
+.features {
+    margin: 40px auto;
+    max-width: 1100px;
+}
+
+.features h2 {
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.features p{
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 3px;
+}
+
+.kelebihan {
+    margin: 20px auto;
+}
+
+.colom {
+    float: left;
+    display: block;
+    width: 22%;
+    margin: 10px 5px;;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
